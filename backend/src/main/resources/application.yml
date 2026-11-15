@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: SIMPustaka
+
+# Lokasi berkas data permanen (File Handling). Bisa diubah lewat environment
+# variable SIMPUSTAKA_DATA_DIRECTORY / SIMPUSTAKA_DATA_FILE.
+simpustaka:
+  data:
+    directory: ${SIMPUSTAKA_DATA_DIRECTORY:./data}
+    file: ${SIMPUSTAKA_DATA_FILE:perpustakaan.csv}
+
+logging:
+  level:
+    id.pens.simpustaka: INFO

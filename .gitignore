@@ -1,0 +1,32 @@
+# Build output
+target/
+build/
+dist/
+out/
+
+# Data runtime (berkas penyimpanan lokal)
+backend/data/
+*.csv.tmp
+
+# Frontend dependencies
+node_modules/
+.vite/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+.settings/
+*.factorypath
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Log
+*.log
+logs/
+nohup.out
